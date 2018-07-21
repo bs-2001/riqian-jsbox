@@ -9,13 +9,13 @@
 
 ### 生成的日签示例
 
-![](https://github.com/bs-2001/riqian-jsbox/raw/master/screenshot/IMG_3188.JPG)
+![](https://github.com/bs-2001/riqian-jsbox/raw/master/screenshot/IMG_3188.jpg)
 
-![](https://github.com/bs-2001/riqian-jsbox/raw/master/screenshot/IMG_3192.JPG)
+![](https://github.com/bs-2001/riqian-jsbox/raw/master/screenshot/IMG_3192.jpg)
 
-![](https://github.com/bs-2001/riqian-jsbox/raw/master/screenshot/IMG_3215.JPG)
+![](https://github.com/bs-2001/riqian-jsbox/raw/master/screenshot/IMG_3215.jpg)
 
-![](https://github.com/bs-2001/riqian-jsbox/raw/master/screenshot/IMG_3219.JPG)
+![](https://github.com/bs-2001/riqian-jsbox/raw/master/screenshot/IMG_3219.jpg)
 
 ### 界面截图
 
