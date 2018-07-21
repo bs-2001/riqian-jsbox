@@ -19,13 +19,13 @@
 
 ### 界面截图
 
-![](https://github.com/bs-2001/riqian-jsbox/raw/master/screenshot/IMG_3235.PNG)
+![](https://github.com/bs-2001/riqian-jsbox/raw/master/screenshot/IMG_3235.png)
 
-![](https://github.com/bs-2001/riqian-jsbox/raw/master/screenshot/IMG_3236.PNG)
+![](https://github.com/bs-2001/riqian-jsbox/raw/master/screenshot/IMG_3236.png)
 
-![](https://github.com/bs-2001/riqian-jsbox/raw/master/screenshot/IMG_3237.PNG)
+![](https://github.com/bs-2001/riqian-jsbox/raw/master/screenshot/IMG_3237.png)
 
-![](https://github.com/bs-2001/riqian-jsbox/raw/master/screenshot/IMG_3238.PNG)
+![](https://github.com/bs-2001/riqian-jsbox/raw/master/screenshot/IMG_3238.png)
 
 
 ### 声明
