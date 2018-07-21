@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0">
+    <meta charset="utf-8">
+    <title></title>
+</head>
+
+<body style="background: #fff; padding: 0; margin:0">
+    <div style="background-position: center center; background-size: cover; color: #fff;" id="pic">
+        <div id="calendar" style="font-style: italic; font-family: 'Optima'; font-size: 20px; text-align: center; text-shadow: #E9E9E6, 2px 2px 2px">
+            <span id="day"></span> 
+            <span id="month"></span> 
+            <span id="year"></span>
+        </div>
+    </div>
+    <div style="margin: 30px 10px 5px 10px; font-size: 18px; text-align: center; font-family: Custom" id="word">
+        天青色等烟雨，而我在等你。
+    </div>
+<script>    
+    function renderCalendar (date1) {
+        if (!date1) {
+            return;
+        }
+        var date = new Date;
+        date.setTime(date1);
+        var monthName=["Jan.", "Feb.", "Mar.", "Apr.", "May", "Jun.", "Jul.", "Aug.", "Sept.", "Oct.", "Nov.", "Dec."];
+        document.getElementById("year").innerHTML=date.getFullYear();
+        var mIdx = date.getMonth();
+        document.getElementById("month").innerHTML=monthName[mIdx];
+        var dd = date.getDate();
+        document.getElementById("day").innerHTML=dd;
+    }    
+    document.getElementById("pic").clientWidth=document.body.clientWidth;
+    document.getElementById("pic").style.height=document.body.clientWidth*1.1+"px";
+    document.getElementById("calendar").style.paddingTop=document.body.clientWidth*1.1-40+"px";
+</script>
+</div>
+</body>
+
+</html>

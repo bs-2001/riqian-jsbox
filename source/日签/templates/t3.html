@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0">
+    <meta charset="utf-8">
+    <title></title>
+</head>
+
+<body style="background: #fff; padding: 0; margin:0">
+    <div style="width: 100%; height: 100%; position: absolute; top: 0px; bottom: 0px; background-position: center center; background-size: cover; color: #ffffff;" id="pic">
+        <div id="calendar" style="position: absolute; bottom: 60px; left: 30px; font-family: Custom, PingFangSC-Ultralight; font-size: 20px; text-shadow: #666 1px 1px 1px; text-align: left;">
+            <span id="year" style="font-size: 15px"></span>
+            <span id="month"></span><span id="day"></span>
+            
+        </div>
+    </div>
+    <div style="position: absolute; top: 120px; right: 30px; font-family: Custom, PingFangSC-Thin; font-size: 22px; text-align: center; writing-mode: vertical-rl; letter-spacing: 3px; color: #e2e1e4;" id="word">
+        天青色等烟雨，而我在等你。
+    </div>
+<script>    
+    function renderCalendar (date1) {
+        if (!date1) {
+            return;
+        }
+        var date = new Date;
+        date.setTime(date1);
+        var monthName=["一月", "二月", "三月", "四月", "五月", "六月", "七月", "八月", "九月", "十月", "十一月", "十二月"];
+        document.getElementById("year").innerHTML=date.getFullYear()+"年<br>";
+        var mIdx = date.getMonth();
+        document.getElementById("month").innerHTML=monthName[mIdx];
+        var dd = date.getDate()+"日";
+        document.getElementById("day").innerHTML=dd;
+    }
+</script>
+</div>
+</body>
+
+</html>
